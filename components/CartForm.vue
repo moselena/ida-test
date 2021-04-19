@@ -65,15 +65,6 @@ export default {
   },
   methods: {
     handleSubmit (e) {
-      // const response = await fetch('#', {
-      //   method: 'POST',
-      //   headers: {
-      //     'Content-Type': 'application/json'
-      //   },
-      //   body: JSON.stringify(this.form)
-      // })
-      // const data = await response.json()
-      // console.log(data)
       const data = JSON.stringify({
         ...this.form,
         items: this.itemsInCart
